@@ -1,0 +1,57 @@
+.Label {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    font-family: 'Source Sans Pro', sans-serif;;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: #68717c;
+    width: 180px;
+    height: 40px;
+}
+
+.Icon {
+
+}
+
+.info {
+    margin-left: 24px;
+}
+.valid {
+    margin-left: 24px;
+}
+
+.invalid {
+    margin-left: 24px;
+}
+
+.arrowdown {
+    width: 30px;
+    height: 24px;
+    margin: 0 0 0 5px;
+    /*margin: 0;*/
+}
+
+.erase {
+    width: 40px;
+    height: 24px;
+    margin: 0;
+}
+
+.Label.invalid {
+    color: red;
+}
+
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+

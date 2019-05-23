@@ -1,0 +1,52 @@
+.DatalistInputWrapper {
+    /*width: 638px;*/
+}
+
+.Container {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    box-shadow: inset 0 1px 3px 0 rgba(27, 40, 52, 0.08);
+    border: solid 1px #d4d8db;
+    align-content: baseline;
+    width: 412px;
+    border-radius: 3px;
+}
+
+.IconWrapper {
+    display: flex;
+    align-content: center;
+}
+
+.List {
+    width: 412px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+    border: solid 1px #d4d8db;
+    position: absolute;
+    z-index: 2;
+    background: #FFFFFF;
+}
+
+.Option {
+    display: flex;
+    align-items: center;
+    width: 397px;
+    height: 42px;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #68717c;
+}
+
+.Option:hover {
+    background-color: #488edf;
+    color: #FFFFFF;
+}

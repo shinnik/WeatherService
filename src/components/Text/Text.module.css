@@ -1,0 +1,105 @@
+.Text {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: #68717c;
+    width: fit-content;
+    height: fit-content;
+}
+
+.normal {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-self: flex-start;
+    margin: 0 0 8px 0;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.L {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #1b2834;
+    margin: 0 0 24px 0;
+}
+
+.Filename {
+    margin-bottom: 0;
+    color: #2d74da;
+    margin-left: 10px;
+}
+
+.Remover {
+    font-size: 14px;
+    color: #fa5e5b;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    margin-bottom: 0;
+}
+
+.Remover:hover {
+    cursor: pointer;
+}
+
+.invalid {
+    color: #fa5e5b;
+    margin-left: 6px;
+    margin-top: 9px;
+}
+
+.valid {
+    color: #16c98d;
+    margin-left: 6px;
+    margin-top: 9px;
+}
+
+.info {
+    margin-left: 6px;
+    margin-top: 9px;
+}
+
+.AdListHeader {
+    margin-top: 54px;
+}
+
+.M {
+    width: 100%;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    color: #1b2834;
+    margin: 0 0 6px 0;
+}
+
+.AdvBodyText {
+    width: 332px;
+}
+
+.UserDataText {
+    align-self: center;
+    margin-bottom: 0;
+    color: #1b2834;
+}
+
+.forHeader.info {
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
