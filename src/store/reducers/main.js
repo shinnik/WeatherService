@@ -4,8 +4,8 @@ import * as actions from '../actions/actionTypes';
 
 const initialState = {
     currentValue: '',
-    cities: ['London', 'Paris', 'Moscow'],
-    weather: {}
+    cities: [],
+    weather: null
 };
 
 export const reducer = (state = initialState, action) => {

@@ -41,6 +41,13 @@
     margin-left: 10px;
 }
 
+.WeatherValue {
+    color: #fa5e5b;
+    margin-bottom: 0;
+    margin-left: 10px;
+    align-self: center;
+}
+
 .Remover {
     font-size: 14px;
     color: #fa5e5b;

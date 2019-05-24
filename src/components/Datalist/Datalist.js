@@ -15,7 +15,7 @@ const Datalist = ({ options, value, onOptionSelected, onEraseText, ...attrs }) =
                 <div className={styles.Container}>
                     <Input value={value} className='DatalistInput' {...attrs}/>
                     <Icon onClickAction={onEraseText} id='erase' iconType='erase'/>
-                    <Icon onClickAction={() => setListOpened(!listOpened)} id='arrowdown' iconType='arrowdown'/>
+                    {/*<Icon onClickAction={() => setListOpened(!listOpened)} id='arrowdown' iconType='arrowdown'/>*/}
                 </div>
                 { listOpened &&
                 <ul className={styles.List}>
