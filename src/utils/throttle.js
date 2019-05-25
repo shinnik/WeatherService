@@ -13,7 +13,6 @@ export default function throttle(func, ms) {
             return;
         }
 
-        console.log('called');
         func.apply(this, arguments);
 
         isThrottled = true;

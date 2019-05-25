@@ -13,7 +13,7 @@ class WeatherService extends Component {
         super(props);
         this.onSelectCity = throttle(this.props.onSelectCity, 500)
     }
-    
+
 
     onChangeHandler(event) {
         this.props.onTypeText(event.target.value);

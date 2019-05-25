@@ -30,9 +30,29 @@ export const reducer = (state = initialState, action) => {
             }
         }
         case actions.GET_CURRENT_WEATHER: {
-            return {
-                ...state,
-                weather: action.weather
+            if (action.weather) {
+                console.log(action.weather);
+                const {temp, pressure, temp_min, temp_max, humidity} = action.weather;
+                const tempC = Math.round(temp - 273);
+                const temp_minC = Math.round(temp_min - 273);
+                const temp_maxC = Math.round(temp_max - 273);
+                const pressureHg = pressure * 0.75;
+                const weather = {
+                    temp: tempC,
+                    pressure: pressureHg,
+                    humidity: humidity,
+                    temp_min: temp_minC,
+                    temp_max: temp_maxC
+                };
+                return {
+                    ...state,
+                    weather
+                }
+            } else {
+                return {
+                    ...state,
+                    weather: null
+                }
             }
         }
         default:
